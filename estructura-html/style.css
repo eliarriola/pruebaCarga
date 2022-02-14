@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Abhaya Libre', serif;
+
+    font-family: 'Quicksand', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../imagenes/fondo-4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+header nav{
+    text-align: center;
+    background-color: rgb(153, 218, 153);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.titulo{
+    text-align: center;
+    margin: 25px;
+}
+
+.parrafo_1{
+    text-align: center;
+}
+
+.video-coder{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.imagen{
+    /* width: 100px; */
+    height: 200px;
+    margin: 100px;
+    
+}
+
+.parrafo-2{
+    margin: 20px;
+}
+
+#subtitulo-1{
+    text-align: center;
+    margin: 15px;
+}
+
+div form fieldset{
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+footer{
+    text-align: center;
+    height: 50px; 
+    background:black;
+    width:100%; 
+    /* position:absolute; 
+    bottom:0; 
+    left:0;  */
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    margin-left: 25px;
+    
+}
